@@ -131,8 +131,3 @@ This is decision support only. It does not replace a guide, proper footwear,
 or trekking judgment. Test on varied terrain and lighting before any real trek
 use, and never rely on it as the only safety measure.
 
-## License
-
-Team project. `ultralytics` is AGPL — fine for a team project, but if this
-becomes commercial, swap to a U-Net implementation to avoid the AGPL license.
-```
