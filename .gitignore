@@ -1,0 +1,39 @@
+﻿# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# ---- Virtual environments ----
+.venv/
+venv/
+env/
+
+# ---- PyInstaller ----
+build/
+dist/
+*.spec
+
+# ---- IDE ----
+.vscode/
+.idea/
+*.swp
+
+# ---- OS ----
+Thumbs.db
+.DS_Store
+
+# ---- Large models ----
+models/*.pt
+*.onnx
+*.pth
+
+# ---- Data folders (keep folders, not contents) ----
+data/raw/
+data/review/
+data/labeled/
+!data/.gitkeep
+
+# ---- Keep the background image ----
+!src/web/assets/sunset.jpg
